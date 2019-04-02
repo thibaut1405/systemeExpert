@@ -1,0 +1,9 @@
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\bin\Debug\lesFormes.exe.config
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\bin\Debug\lesFormes.exe
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\bin\Debug\lesFormes.pdb
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\obj\Debug\lesFormes.csprojResolveAssemblyReference.cache
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\obj\Debug\lesFormes.Form1.resources
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\obj\Debug\lesFormes.Properties.Resources.resources
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\obj\Debug\lesFormes.csproj.GenerateResource.Cache
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\obj\Debug\lesFormes.exe
+D:\Users\thibaut.villeneuve\Documents\Visual Studio 2015\Projects\lesFormes\lesFormes\obj\Debug\lesFormes.pdb

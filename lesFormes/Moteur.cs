@@ -15,6 +15,10 @@ namespace lesFormes
         public Moteur()
         {
             InitializeComponent();
+            nbCotes.SelectedIndex = 0;
+            nbAnglesDroit.SelectedIndex = 0;
+            nbCotesLongueur.SelectedIndex = 0;
+            nbCotesParallele.SelectedIndex = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -52,7 +56,13 @@ namespace lesFormes
             BaseDeRegle compare = new BaseDeRegle(nbCotesSelected,nbCotesLongueurSelected, nbAnglesDroitSelected, nbCotesParalleleSelected);
 
             BaseDeFaits baseFait = new BaseDeFaits();
-            baseFait.ExecuteQuery(nbCotesSelected, nbCotesLongueurSelected, nbAnglesDroitSelected, nbCotesParalleleSelected);
+            
+
+            if (!baseFait.ExecuteQuery(nbCotesSelected, nbCotesLongueurSelected, nbAnglesDroitSelected, nbCotesParalleleSelected))
+            {
+                BaseDeRegle testForm = new BaseDeRegle(nbCotesSelected, nbCotesLongueurSelected, nbAnglesDroitSelected, nbCotesParalleleSelected);
+                testForm.VerifyForm();
+            }
 
             resultRech.Text = global.resultRech;
         }

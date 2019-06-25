@@ -44,8 +44,6 @@
             // 
             this.nbCotes.FormattingEnabled = true;
             this.nbCotes.Items.AddRange(new object[] {
-            "1",
-            "2",
             "3",
             "4",
             "5"});
@@ -59,11 +57,9 @@
             // 
             this.nbCotesParallele.FormattingEnabled = true;
             this.nbCotesParallele.Items.AddRange(new object[] {
-            "1",
+            "0",
             "2",
-            "3",
-            "4",
-            "5"});
+            "4"});
             this.nbCotesParallele.Location = new System.Drawing.Point(27, 303);
             this.nbCotesParallele.Name = "nbCotesParallele";
             this.nbCotesParallele.Size = new System.Drawing.Size(251, 24);
@@ -74,7 +70,7 @@
             // 
             this.nbCotesLongueur.FormattingEnabled = true;
             this.nbCotesLongueur.Items.AddRange(new object[] {
-            "1",
+            "0",
             "2",
             "3",
             "4",
@@ -89,6 +85,7 @@
             // 
             this.nbAnglesDroit.FormattingEnabled = true;
             this.nbAnglesDroit.Items.AddRange(new object[] {
+            "0",
             "1",
             "2",
             "3",
@@ -159,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 410);
+            this.ClientSize = new System.Drawing.Size(1193, 410);
             this.Controls.Add(this.resultRech);
             this.Controls.Add(this.btnValider);
             this.Controls.Add(this.label4);
